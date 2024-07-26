@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">peris</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="error_password">Password recommended more than 8 characters</string>
+    <string name="verified">VERIFIED</string>
+    <string name="notverified">NOT VERIFIED</string>
+    <string name="Open">Open</string>
+    <string name="PublicKey">Public Key.txt</string>
+    <string name="DigitalSignature">Digital Signature.txt</string>
+    <string name="QrCodeContent">Qr Code Content </string>
+    <string name="Close">Close</string>
+    <string name="Logout">Logout</string>
+    <string name="Create_Qr_Code">Create Qr Code</string>
+    <string name="Scan_Qr_Code">Scan Qr Code</string>
+    <string name="bar_result">Result</string>
+    <string name="bar_scan">Scan QR Code</string>
+    <string name="bar_login">Login</string>
+    <string name="bar_register">Register</string>
+    <string name="bar_home">Home</string>
+    <string name="bar_createqr">Create Qr Code</string>
+    <string name="Informasi">Qr Code Tersimpan</string>
+    <string name="infoAttention">Public Key, Private Key, Digital Signature, dan Gambar Qr Code akan tersimpan di folder Downloads</string>
+
+
+</resources>

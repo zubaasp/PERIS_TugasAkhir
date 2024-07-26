@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_regis"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context=".activity.HomeActivity">
+
+
+    <Button
+        android:id="@+id/btn_CreateQr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Create_Qr_Code"
+        app:layout_constraintBaseline_toBottomOf="parent"/>
+
+    <Button
+        android:id="@+id/btn_ScanQr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Scan_Qr_Code"
+        app:layout_constraintTop_toBottomOf="@+id/btn_CreateQr" />
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Logout"
+            app:layout_constraintTop_toBottomOf="@+id/btn_ScanQr" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
